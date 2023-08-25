@@ -2,3 +2,70 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin: 0 auto;
+  width: 50%;
+  background: #f7c0bf;
+}
+
+header {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header button {
+  text-decoration: underline;
+  color: black;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.todo-list-container {
+  width: 100%;
+
+  background-color: #fdeae8;
+  border-radius: 10px;
+}
+
+.todo-list {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+
+.todo-list span {
+  line-height: 100%;
+  padding: 0.5rem;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 1rem;
+  align-content: center;
+}
+
+.edit-buttons button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #e17f7e;
+  border: none;
+  color: white;
+}
