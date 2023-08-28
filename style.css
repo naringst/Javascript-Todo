@@ -38,22 +38,24 @@ main h2 {
 
 .todo-list-container {
   width: 100%;
-
-  background-color: #fdeae8;
-  border-radius: 10px;
 }
 
 .todo-list {
+  background-color: #fdeae8;
+  border-radius: 10px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding: 1rem 2rem;
+  margin-bottom: 1rem;
 }
 
-.todo-list span {
+.todo-list input {
   line-height: 100%;
   padding: 0.5rem;
+  background: transparent;
+  border: none;
 }
 
 .edit-buttons {
@@ -62,7 +64,7 @@ main h2 {
   align-content: center;
 }
 
-.edit-buttons button {
+.edit-button {
   padding: 0.5rem;
   border-radius: 10px;
   background-color: #e17f7e;
