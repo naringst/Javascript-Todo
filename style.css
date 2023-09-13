@@ -25,6 +25,7 @@ header button {
   background: transparent;
   border: none;
   font-size: 1.5rem;
+  cursor : pointer;
 }
 
 ul {
@@ -70,4 +71,5 @@ main h2 {
   background-color: #e17f7e;
   border: none;
   color: white;
+  cursor : pointer;
 }
